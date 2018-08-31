@@ -1,0 +1,11 @@
+branches:
+  only:
+    - master
+
+services:
+  - docker
+
+script:
+  - docker run -v $TRAVIS_BUILD_DIR/rel/:/pkg whynothugo/makepkg
+  - docker run -v $TRAVIS_BUILD_DIR/bin/:/pkg whynothugo/makepkg
+  - docker run -v $TRAVIS_BUILD_DIR/git/:/pkg whynothugo/makepkg
