@@ -18,7 +18,7 @@ source=(
     ${_pkgname}.desktop
 )
 sha256sums=(
-    'SKIP'
+    57f13e4d37c8011ab7104465834fa1706f55d4c29a6fe012a8ae215f1dcf452b
     2758e15659f5770ae2ac948250372135029e7ac2d4b6bf431a112dfdbcc681d1
 )
 package() {
