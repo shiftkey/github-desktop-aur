@@ -19,7 +19,7 @@ source=(
 )
 sha256sums=(
     'SKIP'
-    8545ffdcd8685a2d642a733f9dc407b9b269e2c8fd54f30e1eb336c2aff89318
+    be057e4a392e64760f7a40203ac886b7cf5551de254ad55c706376dca8aa4341
 )
 package() {
     tar xf data.tar.xz -C "${pkgdir}"
