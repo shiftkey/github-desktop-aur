@@ -23,7 +23,7 @@ source=(
 )
 sha256sums=(
   'SKIP'
-  be057e4a392e64760f7a40203ac886b7cf5551de254ad55c706376dca8aa4341
+  2758e15659f5770ae2ac948250372135029e7ac2d4b6bf431a112dfdbcc681d1
 )
 pkgver() {
   cd desktop
