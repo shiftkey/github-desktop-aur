@@ -1,0 +1,11 @@
+# archives used as part of packaging
+*.deb
+*.xz
+*.gz
+
+# conventions used by makepkg
+pkg/
+src/
+
+# local clone of GitHub Desktop
+/rel/desktop/
