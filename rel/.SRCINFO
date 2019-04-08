@@ -15,7 +15,7 @@ pkgbase = github-desktop
 	depends = libxss
 	depends = gconf
 	optdepends = hub: CLI interface for GitHub.
-	source = git+https://github.com/shiftkey/desktop.git#tag=release-1.6.5-linux2
+	source = git+https://github.com/shiftkey/desktop.git#tag=release-1.6.5-linux6
 	source = github-desktop.desktop
 	sha256sums = SKIP
 	sha256sums = 2758e15659f5770ae2ac948250372135029e7ac2d4b6bf431a112dfdbcc681d1
