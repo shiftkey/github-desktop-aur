@@ -1,4 +1,5 @@
 # Maintainer: Ian MacKay <immackay0@gmail.com>
+# Maintainer: Brendan Forster <archlinux@brendanforster.com>
 
 _pkgname='github-desktop'
 pkgname="${_pkgname}-bin"
