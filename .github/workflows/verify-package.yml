@@ -1,0 +1,24 @@
+name: Verify Package
+
+# this runs whenever the default branch is updated, or whenever a pull request
+# uses the default branch as it's base
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Test bin package using Docker
+      run: docker run -v $(pwd)/bin/:/pkg whynothugo/makepkg
+    - name: Test rel package using Docker
+      run: docker run -v $(pwd)/rel/:/pkg whynothugo/makepkg
+    - name: Test git package using Docker
+      run: docker run -v $(pwd)/git/:/pkg whynothugo/makepkg
