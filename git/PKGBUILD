@@ -13,7 +13,7 @@ url="https://desktop.github.com"
 license=('MIT')
 depends=('gnome-keyring' 'libsecret' 'git' 'curl' 'libxss' 'gconf' 'nss' 'nspr' 'unzip')
 optdepends=('hub: CLI interface for GitHub.')
-makedepends=('xorg-server-xvfb' 'nodejs>=10.16.0' 'yarn' 'python2' 'unzip')
+makedepends=('xorg-server-xvfb' 'nodejs>=10.16.0' 'npm' 'yarn' 'python2' 'unzip')
 provides=(${_pkgname})
 conflicts=(${_pkgname})
 DLAGENTS=("https::/usr/bin/git clone --branch ${gitname} --single-branch %u")

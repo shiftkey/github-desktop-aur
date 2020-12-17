@@ -7,6 +7,7 @@ pkgbase = github-desktop
 	license = MIT
 	makedepends = xorg-server-xvfb
 	makedepends = nodejs>=10.16.0
+	makedepends = npm
 	makedepends = yarn
 	makedepends = python2
 	makedepends = unzip
@@ -26,4 +27,3 @@ pkgbase = github-desktop
 	sha256sums = 932e4c456e8c6db03d27172cf0daa37806bf025bb560d8b3d758c0997d1a618c
 
 pkgname = github-desktop
-
