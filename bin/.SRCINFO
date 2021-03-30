@@ -10,7 +10,6 @@ pkgbase = github-desktop-bin
 	depends = git
 	depends = curl
 	depends = libxss
-	depends = gconf
 	depends = nss
 	depends = nspr
 	depends = unzip
